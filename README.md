@@ -7,14 +7,14 @@ A Java Project of Computational Genomics that contain: Pairwise sequence alignme
   A program that calculates pairwise sequence alignments of two sequences (DNA, RNA, or proteins).
 
 o	Input (a simple GUI for input parameters):
+ 
+   •	Text field/s for two sequences (allowed characters a-z and A-Z)
 
-  •	Text field/s for two sequences (allowed characters a-z and A-Z)
-
-  •	Fields with values for substitution matrix. For example:
-   - match 2
-   - mismatch -1
-   - indel -1.5
-   - gap 0
+   •	Fields with values for substitution matrix. For example:
+- match 2
+- mismatch -1
+- indel -1.5
+- gap 0
 
   • Radio buttons to choose the alignment algorithm:
     -	Global alignment
