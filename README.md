@@ -1,5 +1,7 @@
 # Computational Genomics Software
-A Java Project of Computational Genomics that contain: Pairwise sequence alignment, Phylogeny and Multiple sequence alignment.
+A Java Project of Computational Genomics that contain 3 parts:
+
+Pairwise sequence alignment, Phylogeny and Multiple sequence alignment.
 
 
 
