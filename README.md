@@ -60,4 +60,4 @@ o	Output (GUI window with alignment output):
        *Using neighbor joining (NJ) clustering algorithm to calculate the tree. 
        *Using divergence to find sister leafs.
 
-
+*sample-sequences.txt is a general test of multiple sequences and can be run to check the phylogeny works well.
