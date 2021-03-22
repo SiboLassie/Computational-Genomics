@@ -63,3 +63,48 @@ o	Output (GUI window with alignment output):
        *Using divergence to find sister leafs.
 
 *sample-sequences.txt is a general test of multiple sequences and can be run to check the phylogeny works well.
+
+# Multiple sequence alignment
+  A program that calculates multiple sequence alignment of k>1 sequences using Progressive Alignment Method.
+
+o	Algorithm used:
+ 
+    • Progressive Alignment Method algorithm (like used in ClustalW), to find an approximation of multiple sequence alignment.
+      
+    • The algorithm contain the following stages: 
+      o Calculate pairwise alignments and distance matrix.
+      o Build guide tree - using Neighbor Joining clustering method.
+      o Create a progressive multiple sequence alignment, guided by guide tree (using profiles to align alignments).
+
+o	Input (a simple GUI for input parameters):
+ 
+    • One text field for k sequences of unlimited length with ">" at the beginning of each sequence. For example:
+      o >ATTGCCTTC
+      o >ATCGTTCT
+      o >GTCGTACTAG
+      
+    • Fields with distance values for substitution matrix. For example:
+      o match 0
+      o mismatch 1
+      o indel 1.5
+
+    • Button to start the algorithm.
+
+o	Output (GUI window with alignment output):
+
+     • Distance matrix – matrix containing distances between each pair of input sequences. 
+       
+       *Calculate the distance between two sequences useing progressive alignment method algorithm.
+       
+     • Guide tree with distances on edges and labels on leafs, 
+       the root is in the middle of the last edge added to the tree.
+       
+       *For labels display using indexes of sequences in the input. 
+       *Using neighbor joining (NJ) clustering algorithm to calculate the tree. 
+       *Using divergence to find sister leafs.
+       *The output window able to display guide tree of at least 10 sequences and the alignment of at least 10 sequences of size 80 completely without using scroll bars etc.
+       *For more sequences, or longer sequences using a scroll bars.
+      
+      • Multiple sequence alignment found by algorithm.
+      
+      •	Score of multiple sequence alignment.
